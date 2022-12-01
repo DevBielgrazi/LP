@@ -1,10 +1,10 @@
 package com.example.lp1;
 
 public class Carro {
-    private String marca;
-    private String modelo;
-    private String cor;
-    private String placa;
+    private static String marca;
+    private static String modelo;
+    private static String cor;
+    private static String placa;
     private static Integer tanque = 3;
 
     public static Integer getTanque() {
